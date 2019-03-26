@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/* CSS Document created by Angel Nanov and Completed on 3/25/2019 */
+
+body {
+	font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+	font-size: 14px;
+	line-height: 1.3em;
+	color: #FFFFFF;
+	background-color: #646464;
+	padding: 15px 60px 5px 60px;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.02em;
+}
+h1 {
+	padding: 0;
+	margin: 10px 0 10px 0;
+	font-size: 40px;
+	font-variant: small-caps;
+	letter-spacing: .1em;
+	line-height: 1em;
+}
+h2 {
+	font-size: 28px;
+	padding: 6px;
+	font-variant: small-caps;
+	letter-spacing: 0.14em;
+	background-color: #1DB954;
+	color: #ffffff;
+	font-style: italic;
+}
+h3 {
+	font-size: 20px;
+	letter-spacing: 0.25em;
+	border-bottom: #1DB954 dotted 2px;
+	font-variant: small-caps;
+	padding: 2px 0 0 0;
+	font-style: italic;
+	font-weight: bold;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #FE5000;
+	text-decoration: underline;
+}
+a:visited {
+	font-weight: bold;
+	color: #003366;
+	text-decoration: none;
+}
+a:hover {
+	color: #ffffff;
+}
+/* list styles ----------------------------- */
+ul li {
+	padding: 0 0 0 0;
+	margin-left: 6px;
+}
+/* table styles ----------------------------- */
+table {
+	border: solid #1DB954 1px;
+	border-spacing: 0;
+	border-collapse: separate;
+}
+td {
+	padding: 4px;
+	border: solid #1DB954 1px;
+}
+th {
+	font-weight: bold;
+	background-color: #1DB954;
+	text-align: center;
+	padding: 6px;
+	border: solid #1DB954 1px;
+	color: #ffffff;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #003366 1px;
+}
+
+img {
+	border: dotted #003366 1.2px;
+	padding: 4px;
+	margin: 5px 0 5px 0;
+	
+
+}
+iframe {
+	border: solid #003366 1px;
+	padding: 6px;
+	margin: 6px;
+}
+
+
