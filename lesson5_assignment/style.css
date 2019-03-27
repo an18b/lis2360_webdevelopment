@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /* CSS Document created by Angel Nanov and Completed on 3/25/2019 */
 
+/* General body styling */
 body {
 	font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
 	font-size: 14px;
@@ -19,7 +20,7 @@ h1 {
 	margin: 10px 0 10px 0;
 	font-size: 40px;
 	font-variant: small-caps;
-	letter-spacing: .1em;
+	letter-spacing: .05em;
 	line-height: 1em;
 }
 h2 {
@@ -60,6 +61,10 @@ ul li {
 	padding: 0 0 0 0;
 	margin-left: 6px;
 }
+ol li {
+	padding: 0 0 0 0;
+	margin-left: 15px;
+}
 /* table styles ----------------------------- */
 table {
 	border: solid #1DB954 1px;
@@ -81,11 +86,10 @@ th {
 
 /* border styles ------------------------------------ */
 hr {
-	border: solid #003366 1px;
+	border: dashed #003366 1px;
 }
 
 img {
-	border: dotted #003366 1.2px;
 	padding: 4px;
 	margin: 5px 0 5px 0;
 	
