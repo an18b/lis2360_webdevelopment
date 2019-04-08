@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* CSS Document created by Angel Nanov and Completed on 3/25/2019 */
+/* CSS Document created by Angel Nanov and Completed on 4/07/2019 */
 
 /* General body styling */
 body {
@@ -8,7 +8,8 @@ body {
 	line-height: 1.3em;
 	color: #FFFFFF;
 	background-color: #646464;
-	padding: 15px 60px 5px 60px;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
 }
 
 /* basic text styles ----------------------------  */
@@ -54,6 +55,10 @@ a:visited {
 	text-decoration: none;
 }
 a:hover {
+	color: #ffffff;
+}
+a:active {
+	text-decoration: italic;
 	color: #ffffff;
 }
 /* list styles ----------------------------- */
@@ -118,6 +123,10 @@ header img {
 	border: none;
 	padding: 0px 0px 0px 0px;
 	margin: 0 0 10px 0;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3px;
 }
 #sidebar1{
 	width: 250px;
@@ -149,10 +158,4 @@ footer img{
 }
 footer p{
 	padding: 5px 0 5px 0;
-}
-header img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 3px;
 }
