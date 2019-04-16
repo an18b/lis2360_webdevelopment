@@ -1,0 +1,161 @@
+@charset "UTF-8";
+/* CSS Document created by Angel Nanov and Completed on 4/07/2019 */
+
+/* General body styling */
+body {
+	font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+	font-size: 14px;
+	line-height: 1.3em;
+	color: #FFFFFF;
+	background-color: #646464;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.02em;
+}
+h1 {
+	padding: 0;
+	margin: 10px 0 10px 0;
+	font-size: 40px;
+	font-variant: small-caps;
+	letter-spacing: .05em;
+	line-height: 1em;
+}
+h2 {
+	font-size: 28px;
+	padding: 6px;
+	font-variant: small-caps;
+	letter-spacing: 0.14em;
+	background-color: #1DB954;
+	color: #ffffff;
+	font-style: italic;
+}
+h3 {
+	font-size: 20px;
+	letter-spacing: 0.25em;
+	border-bottom: #1DB954 dotted 2px;
+	font-variant: small-caps;
+	padding: 2px 0 0 0;
+	font-style: italic;
+	font-weight: bold;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #FE5000;
+	text-decoration: underline;
+}
+a:visited {
+	font-weight: bold;
+	color: #003366;
+	text-decoration: none;
+}
+a:hover {
+	color: #ffffff;
+}
+a:active {
+	text-decoration: italic;
+	color: #ffffff;
+}
+/* list styles ----------------------------- */
+ul li {
+	padding: 0 0 0 0;
+	margin-left: 6px;
+}
+ol li {
+	padding: 0 0 0 0;
+	margin-left: 20px;
+}
+/* table styles ----------------------------- */
+table {
+	border: solid #1DB954 1px;
+	border-spacing: 0;
+	border-collapse: separate;
+}
+td {
+	padding: 4px;
+	border: solid #1DB954 1px;
+}
+th {
+	font-weight: bold;
+	background-color: #1DB954;
+	text-align: center;
+	padding: 6px;
+	border: solid #1DB954 1px;
+	color: #ffffff;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: dashed #003366 1px;
+}
+
+img {
+	padding: 4px;
+	margin: 5px 0 5px 0;
+	
+
+}
+iframe {
+	border: solid #003366 1px;
+	padding: 6px;
+	margin: 6px;
+}
+/* DIV and class styles */
+#container {
+	width: 1100px;
+	margin: 0 auto;
+	padding: 35px 50px 0 50px;
+	overflow: hidden;
+}
+#content {
+	width: 800px;
+	float: left;
+}
+main{
+	width: 100%;
+}
+header img {
+	border: none;
+	padding: 0px 0px 0px 0px;
+	margin: 0 0 10px 0;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3px;
+}
+#sidebar1{
+	width: 250px;
+	float: right;
+	margin: 70px 0 0 5px;
+	border: 2px dashed #003366;
+	padding: 3px 0px 0 3px;
+	text-align: center;
+}
+#sidebar2{
+	width: 250px;
+	float: right;
+	margin: 800px 0 0 5px;
+	border: 2px dashed #003366;
+	padding: 3px 0px 0px 3px;
+	text-align: center;
+}
+header {
+	width: 100%;
+	padding-bottom: 0.5px; 
+}
+footer {
+	width: 100%;
+	clear: both;
+}
+footer img{
+	margin: 1px;
+	padding: 0;
+}
+footer p{
+	padding: 5px 0 5px 0;
+}
