@@ -38,23 +38,27 @@ ul#menu li a.button {
 /* also you want to discourage users from clicking the button for the current page */
 ul#menu li a.button.selected{
 	background-color: #003366; /* matching the color of the content background color */
-	color: #fff; /* font color */
+	color: #ffffff; /* font color */
 	font-style: italic;
 	border: solid 1px #003366; /* 1-pixel border around buttons. */
 }
 /* visited link font colors */
 ul#menu li a.button:visited {
-	color: #9b9744;
-	border: solid 1px #9b9744; /* 1-pixel border around buttons. */
+	color: #ffffff;
+	border: solid 1px #FE5000; /* 1-pixel border around buttons. */
 }  
 ul#menu li a.button:visited.selected{
-	color: #000;
+	background-color: #003366;
+	color: #ffffff;
+	font-style: italic;
+	border: solid 1px #003366; /* 1-pixel border around buttons. */
 } 
 /* hover link styles */
 ul#menu li a.button:hover {
-	background-color: #9b9744;
+	background-color: #1DB954;
 	color: #ffffff;
-	border: solid 1px #9b9744; /* 1-pixel border around buttons. */
+	font-size: 1.2em;
+	border: solid 1px #1DB954; /* 1-pixel border around buttons. */
 } 
 /* selected button shouldn't change on hover */ 
 ul#menu li a.button:hover.selected{ 
