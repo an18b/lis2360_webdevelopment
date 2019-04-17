@@ -62,6 +62,7 @@ ul#menu li a.button:hover {
 } 
 /* selected button shouldn't change on hover */ 
 ul#menu li a.button:hover.selected{ 
-	background-color: #fff;
-	color: #000;
+	background-color: #003366;
+	color: #ffffff;
+	font-size: 1em;
 } 
