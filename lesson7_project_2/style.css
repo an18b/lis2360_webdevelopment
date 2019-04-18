@@ -13,17 +13,18 @@ body{
 #overview{
     background-color: #1DB954;
     padding: 30px 0px 40px 0px;
+    color: #ffffff;
+	background: url(images/looping.jpg) no-repeat center top fixed;
+	background-size: cover;
 }
 #history{
-    /*background-color: #2079FF;*/
-    background: url(images/blurred.jpg) no-repeat center top fixed;
-   	background-size: cover;
-    padding: 30px 0px 40px 0px;
+    background-color: #1DB954;
+    padding: 40px 0px 40px 0px;
 }
 #author{
     background-color: #646464;
     color:#ffffff;
-    padding: 30px 0px 40px 0px;
+    padding: 40px 0px 40px 0px;
 }
 #footer{
     background-color: #003366;
@@ -52,8 +53,10 @@ body{
 }
 .third_container p {
 	font-size: .75em;
-
 	float: left;
+}
+.third_container img {
+	float: right;
 }
 .two_third_container {
 	width: 75%;
