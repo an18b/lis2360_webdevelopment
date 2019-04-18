@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#splash{
+    background-color: #ffffff;
+    background: url(images/banner.jpg) no-repeat center top fixed;
+   	background-size: cover; 
+    height:1000px;
+}
+
+#overview{
+    background-color: #1DB954;
+    padding: 30px 0px 40px 0px;
+}
+#history{
+    /*background-color: #2079FF;*/
+    background: url(images/blurred.jpg) no-repeat center top fixed;
+   	background-size: cover;
+    padding: 30px 0px 40px 0px;
+}
+#author{
+    background-color: #646464;
+    color:#ffffff;
+    padding: 30px 0px 40px 0px;
+}
+#footer{
+    background-color: #003366;
+    padding: 20px 0px;
+    color: #ffffff;
+    text-align: center;
+}
+/* Containers are used to keep the page content within bounds centered in the browser window. */
+.container {
+  width: 960px; /* static width container always stays at this width no matter what the window size */
+  margin: 0 auto;
+  overflow: hidden;
+  font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+  font-weight: 750;
+  font-size: 1.05em;
+}
+.half_container { /* provides a two column presentation */
+  width: 50%;
+  float: left;
+  overflow: hidden;
+}
+.third_container {
+	width: 20%;
+	overflow: hidden;
+	float: left;
+}
+.third_container p {
+	font-size: .75em;
+
+	float: left;
+}
+.two_third_container {
+	width: 75%;
+	overflow: hidden;
+	float: left;
+	padding-right: 20px;
+}
+.container h3
+{
+    font-size: 1.33em;
+    font-weight: 800;
+}
+.container h1{
+    font-size: 1.6em;
+}
+#overview .third_container {
+	margin-top: 90px;
+}
+
+
+/* ----------------- NAVIGATION BAR STYLES -------------------*/ 
+
+#navbar{
+	position: fixed; /* navbar should always be shown even when page is scrolled */
+	top: 0;
+	width: 100%;
+	height: 54px;
+	background-color: rgba(255, 255, 255, 0.8); 
+	padding-left: 88px
+}	
+/* horizontal menu bars are typically created using a styled unordered list. Here's how! */
+ul#menu {
+	list-style: none; /* eliminates bullets */
+	/* adjust padding top to adjust nav bar vertical position */
+	padding-top: 0px;
+} 
+ul#menu li {
+	float: left; /* changes list from vertical to horizontal */
+	padding-bottom: 20px;
+} 
+ul#menu li a.button {
+	font-size: 16px;
+	text-decoration: none;
+	/* this padding defines the size of the buttons */
+    /*Reduced padding to accomodate for the additional text caused by my menu texts */
+	padding: 20px 70px 20px 70px; 
+}
+/* change button color when mouse hovers over */
+ul#menu li a.button:hover {
+	background-color: rgba(29, 185, 85, 0.2);
+}
+
+/*--------------------TITLE PAGE STYLES-----------------------*/
+#title-page{ 
+width: 100%; 
+padding-top: 200px; /* provides a lot of space to view the background image */ 
+color: #fff; text-align: right;
+} 
+#title-page h1 { 
+font-family: 'Chakra Petch', sans-serif; 
+font-size: 80px; 
+text-shadow: 3px 3px #000;
+padding-right: 40px;
+} 
+#title-page h3 {
+font-family: 'Chakra Petch', sans-serif; 
+font-size: 2em;  
+margin: 0 40px;
+padding-right:40px;
+text-shadow: 1.5px 1.5px #000;
+
+}
+/*------------------------TABLE STYLES-------------------------*/
+table {
+	border: solid #FE5000 1px;
+	border-spacing: 0;
+	border-collapse: separate;
+  margin-left: auto;
+  margin-right: auto;
+}
+td {
+	padding: 4px;
+	border: solid #FE5000 1px;
+}
+th {
+	font-weight: bold;
+	background-color: #FE5000;
+	text-align: center;
+	padding: 6px;
+	border: solid #FE5000 1px;
+	color: #ffffff;
+}
+/*--------------------------Others--------------------------------*/
+iframe {
+	border: solid #003366 1px;
+	padding: 6px;
+	margin: 6px auto;
+  
+}
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #1DB954;
+	text-decoration: underline;
+}
+a:visited {
+	font-weight: bold;
+	color: #FE5000;
+	text-decoration: none;
+}
+a:hover {
+	color: #000;
+}
